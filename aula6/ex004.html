@@ -12,10 +12,13 @@
     </style>
 </head>
 <body>
-    <script>
-        var  nome = window.prompt('Qual é seu nome?') 
-        nome_sem_espaço= nome.replace(' ', '')//retirei os espaços entre as letras 
+    
 
+    <script>
+        
+        var  nome = window.prompt('Qual é seu nome?')
+        nome_sem_espaço= nome.replace(' ', '').replace(' ','').replace(' ','').replace(' ','').replace(' ','').replace(' ','')//retirei os espaços entre as letras 
+        
         var salário = Number(window.prompt('Quanto almeja  ganhar de salério?').replace(',','.'))//replace, tranforma a vírgula(,) em ponto(.) para evitar erros.
 
         document.write(`Olá <strong>${nome}</strong> ! seu nome tem <strong>${nome_sem_espaço.length}</strong> letras <br>`) 
