@@ -1,4 +1,4 @@
-newFunction(4, 10)
+newFunction(1, 10)
 function newFunction(i, n) {
     
     while (i <= n) {
@@ -7,3 +7,10 @@ function newFunction(i, n) {
     }
 }
 
+
+
+/*var c = 1    
+ do {
+    console.log(`Passo ${c}`)
+    c++
+}while (c <= 10)*/
